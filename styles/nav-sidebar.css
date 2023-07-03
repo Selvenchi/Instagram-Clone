@@ -1,0 +1,97 @@
+.sidebar__container {
+  width: 319px;
+  right: 10px;
+  margin-left: 45px;
+}
+
+.own-profile-sidebar {
+  width: 319px;
+  height: 66px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  margin-bottom: 10px;
+}
+
+.own-profile__container {
+  display: flex;
+  align-items: center;
+}
+
+.own-profile__container img {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+  margin-right: 16px;
+}
+
+.own-profile__container div {
+  font-weight: 600;
+}
+
+.sidebar-btn {
+  color: rgb(0, 149, 246)
+}
+
+.suggested-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.sidebar-see-all {
+  font-weight: 600;
+}
+
+.suggested-text {
+  color: rgb(115, 115, 115);
+  font-weight: 450;
+}
+
+.suggested-profile {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.suggested-pfp {
+  height: 32px;
+  width: 32px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 100%;
+  display: flex;
+  margin-right: 8px;
+}
+
+.suggested-profile__container {
+  display: flex;
+  align-items: center;
+  padding: 4px;
+}
+
+.suggested-handle {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.suggested-followed {
+  font-size: 14px;
+  color: rgb(115, 115, 115);
+}
+
+.about {
+  color: rgb(199, 199, 199);
+  margin-top: 30px;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+@media (max-width: 1280px) {
+  .sidebar__container {
+    display: none;
+  }
+}
+

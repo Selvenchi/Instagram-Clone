@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram Clone</title>
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/nav-sidebar.css" />
+    <link rel="stylesheet" href="styles/story.css" />
+    <link rel="stylesheet" href="styles/posts.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/4e734dc28c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+
+    <header class="header__container">
+      <div class="top-middle-wrapper">
+        <div class="top-header">
+          <img
+            class="instagram-logo"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1280px-Instagram_logo.svg.png"
+          />
+          <i class="fa-brands fa-instagram" style="color: #000000"></i>
+        </div>
+        <div class="middle-header">
+          <div class="sidebar-link">
+            <img src="icons/house-solid.svg" />
+            <div>Home</div>
+          </div>
+          <div class="sidebar-link">
+            <img src="icons/magnifying-glass-solid.svg" />
+            <div>Search</div>
+          </div>
+          <div class="sidebar-link">
+            <img src="icons/compass-regular.svg" />
+            <div>Explore</div>
+          </div>
+          <div class="sidebar-link">
+            <img src="icons/clapperboard-solid.svg" />
+            <div>Reels</div>
+          </div>
+          <div class="sidebar-link">
+            <img src="icons/message-regular.svg" />
+            <div>Messages</div>
+          </div>
+          <div class="sidebar-link">
+            <img src="icons/heart-regular.svg" />
+            <div>Notifications</div>
+          </div>
+          <div class="sidebar-link">
+            <img src="icons/square-plus-regular.svg" />
+            <div>Create</div>
+          </div>
+          <div class="sidebar-link">
+            <img
+              class="profile-picture"
+              src="https://images.unsplash.com/photo-1574158622682-e40e69881006?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80"
+            />
+            <div>Profile</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom-header">
+        <div class="sidebar-link">
+          <img src="icons/bars-solid.svg" />
+          <div>More</div>
+        </div>
+      </div>
+    </header>
+
+    <header>
+      <div class="header-top">
+        <div class="header-top-left">
+          <img
+            class="ig-logo"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1280px-Instagram_logo.svg.png"
+          />
+          <i class="fa-solid fa-angle-down" style="color: #bfbfbf"></i>
+        </div>
+        <div class="header-top-right">
+          <div>
+            <i
+              class="search-glass fa-solid fa-magnifying-glass"
+              style="color: #aeaeae"
+            ></i>
+            <input class="header-top-right-search" placeholder="Search" />
+          </div>
+          <i
+            class="header-likes fa-regular fa-heart"
+            style="color: #000000"
+          ></i>
+        </div>
+      </div>
+
+      <div class="header-bottom">
+        <div class="header__wrapper">
+          <img class="header-bottom-btn" src="icons/house-solid.svg" />
+          <img class="header-bottom-btn" src="icons/compass-regular.svg" />
+          <img class="header-bottom-btn" src="icons/clapperboard-solid.svg" />
+          <img class="header-bottom-btn" src="icons/square-plus-regular.svg" />
+          <img class="header-bottom-btn" src="icons/message-regular.svg" />
+          <img
+            class="header-bottom-btn profile-btm"
+            src="https://images.unsplash.com/photo-1574158622682-e40e69881006?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80"
+          />
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+      <!-- SIDEBAR -->
+
+      <aside class="sidebar__container">
+        <div class="own-profile-sidebar">
+          <div class="own-profile__container">
+            <img
+              src="https://images.unsplash.com/photo-1574158622682-e40e69881006?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80"
+            />
+            <div>giselebew</div>
+          </div>
+          <div class="sidebar-btn">Switch</div>
+        </div>
+
+        <div class="suggested-info">
+          <p class="suggested-text">Suggested for you</p>
+          <p class="sidebar-see-all">See All</p>
+        </div>
+
+        <div class="suggested-profile">
+          <div class="suggested-card__container">
+            <div class="suggested-profile__container">
+              <img
+                class="suggested-pfp"
+                src="https://images.unsplash.com/photo-1520315342629-6ea920342047?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80"
+              />
+              <div class="suggested-desc">
+                <p class="suggested-handle">vanili</p>
+                <p class="suggested-followed">
+                  Followed by choc0o &plus; 13 more
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar-btn">Follow</div>
+        </div>
+
+        <div class="suggested-profile">
+          <div class="suggested-card__container">
+            <div class="suggested-profile__container">
+              <img
+                class="suggested-pfp"
+                src="https://images.unsplash.com/photo-1569591159212-b02ea8a9f239?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80%3D%3D&auto=format&fit=crop&w=880&q=80"
+              />
+              <div class="suggested-desc">
+                <p class="suggested-handle">creeme_</p>
+                <p class="suggested-followed">
+                  Followed by vanili &plus; 2 more
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar-btn">Follow</div>
+        </div>
+
+        <div class="suggested-profile">
+          <div class="suggested-card__container">
+            <div class="suggested-profile__container">
+              <img
+                class="suggested-pfp"
+                src="https://images.unsplash.com/photo-1606225457115-9b0de873c5db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+              />
+              <div class="suggested-desc">
+                <p class="suggested-handle">whisssky</p>
+                <p class="suggested-followed">
+                  Followed by cook1e &plus; 25 more
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar-btn">Follow</div>
+        </div>
+
+        <div class="suggested-profile">
+          <div class="suggested-card__container">
+            <div class="suggested-profile__container">
+              <img
+                class="suggested-pfp"
+                src="https://images.unsplash.com/photo-1597237364955-c094c7171326?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80"
+              />
+              <div class="suggested-desc">
+                <p class="suggested-handle">lunaa4r</p>
+                <p class="suggested-followed">
+                  Followed by creeme_ &plus; 4 more
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar-btn">Follow</div>
+        </div>
+
+        <div class="suggested-profile">
+          <div class="suggested-card__container">
+            <div class="suggested-profile__container">
+              <img
+                class="suggested-pfp"
+                src="https://images.unsplash.com/photo-1533738363-b7f9aef128ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80"
+              />
+              <div class="suggested-desc">
+                <p class="suggested-handle">choc0o</p>
+                <p class="suggested-followed">
+                  Followed by whisssky &plus; 9 more
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar-btn">Follow</div>
+        </div>
+
+        <div class="about">
+          About &#183; Help &#183; Press &#183; API &#183; Jobs &#183; Privacy
+          &#183; Terms &#183; Locations &#183; Language &#183; Meta Verified
+        </div>
+
+        <div class="about">© 2023 Instagram from Meta</div>
+      </aside>
+
+      <section class="middle__container">
+        <!-- STORY -->
+        <nav class="story__container">
+          <div class="story__profile">
+            <div class="story-outer-circle story--size">
+              <img
+                class="story-pfp"
+                src="https://images.unsplash.com/photo-1520315342629-6ea920342047?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80"
+              />
+            </div>
+            <p class="story-handle">vanili</p>
+          </div>
+
+          <div class="story__profile">
+            <div class="story-outer-circle story--size">
+              <img
+                class="story-pfp"
+                src="https://images.unsplash.com/photo-1520315342629-6ea920342047?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80"
+              />
+            </div>
+            <p class="story-handle">vanili</p>
+          </div>
+
+          <div class="story__profile">
+            <div class="story-outer-circle story--size">
+              <img
+                class="story-pfp"
+                src="https://images.unsplash.com/photo-1520315342629-6ea920342047?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80"
+              />
+            </div>
+            <p class="story-handle">vanili</p>
+          </div>
+
+          <div class="story__profile">
+            <div class="story-outer-circle story--size">
+              <img
+                class="story-pfp"
+                src="https://images.unsplash.com/photo-1520315342629-6ea920342047?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80"
+              />
+            </div>
+            <p class="story-handle">vanili</p>
+          </div>
+
+          <div class="story__profile">
+            <div class="story-outer-circle story--size">
+              <img
+                class="story-pfp"
+                src="https://images.unsplash.com/photo-1520315342629-6ea920342047?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80"
+              />
+            </div>
+            <p class="story-handle">vanili</p>
+          </div>
+
+          <div class="story__profile">
+            <div class="story-outer-circle story--size">
+              <img
+                class="story-pfp"
+                src="https://images.unsplash.com/photo-1520315342629-6ea920342047?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80"
+              />
+            </div>
+            <p class="story-handle">vanili</p>
+          </div>
+
+          <div class="story__profile">
+            <div class="story-outer-circle story--size">
+              <img
+                class="story-pfp"
+                src="https://images.unsplash.com/photo-1520315342629-6ea920342047?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80"
+              />
+            </div>
+            <p class="story-handle">vanili</p>
+          </div>
+
+          <div class="story__profile">
+            <div class="story-outer-circle story--size">
+              <img
+                class="story-pfp"
+                src="https://images.unsplash.com/photo-1520315342629-6ea920342047?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80"
+              />
+            </div>
+            <p class="story-handle">vanili</p>
+          </div>
+        </nav>
+
+        <!-- POST -->
+        <section class="post__container">
+          <div class="post__content">
+            <div class="div-hover__container">
+              <div class="post-header">
+                <div class="post-pfp">
+                  <img
+                    class="suggested-pfp"
+                    src="https://images.unsplash.com/photo-1520315342629-6ea920342047?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80"
+                  />
+                  <p class="post-handle">
+                    vanili <span class="time-posted">&#183; 1h</span>
+                  </p>
+                  <div class="hover__container">
+                    <div class="hover-header">
+                      <div class="story__profile hover-profile">
+                        <div class="story-outer-circle story--size">
+                          <img
+                            class="story-pfp"
+                            src="https://images.unsplash.com/photo-1520315342629-6ea920342047?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80"
+                          />
+                        </div>
+                      </div>
+                      <div class="hover-name">
+                        <p class="hover-handle">vanili</p>
+                        <p class="suggested-followed">The Popular Cat</p>
+                      </div>
+                    </div>
+
+                    <div class="hover-info">
+                      <div class="hover-info-box">
+                        <p>5,971</p>
+                        <div>posts</div>
+                      </div>
+
+                      <div class="hover-info-box">
+                        <p>79.8K</p>
+                        <div>followers</div>
+                      </div>
+
+                      <div class="hover-info-box">
+                        <p>263</p>
+                        <div>following</div>
+                      </div>
+                    </div>
+
+                    <div class="hover-posts">
+                      <div class="hover-posts-image">
+                        <img
+                          src="https://images.unsplash.com/photo-1518288774672-b94e808873ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=738&q=80"
+                        />
+                      </div>
+                      <div class="hover-posts-image">
+                        <img
+                          src="https://images.unsplash.com/photo-1561948955-570b270e7c36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=601&q=80"
+                        />
+                      </div>
+                      <div class="hover-posts-image">
+                        <img
+                          src="https://images.unsplash.com/photo-1606425269146-be8a91b7ac64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1519&q=80"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="hover-interact">
+                      <button class="message-btn-hover">
+                        <i
+                          class="fa-regular fa-message"
+                          style="color: #ffffff"
+                        ></i>
+                        <div>Message</div>
+                      </button>
+                      <button class="following-btn-hover">Following</button>
+                    </div>
+                  </div>
+                </div>
+
+                <i class="fa-solid fa-ellipsis" style="color: #000000"></i>
+              </div>
+            </div>
+
+            <div class="post-image">
+              <img
+                src="https://images.unsplash.com/photo-1518288774672-b94e808873ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=738&q=80"
+              />
+            </div>
+
+            <div class="post-icons">
+              <div class="icons__container">
+                <div class="heart__container">
+                  <!-- <i class="fa-regular fa-heart fa-heart-1" style="color: #000000;"></i> -->
+                  <i class="fa-solid fa-heart fa-heart-1"></i>
+                  <div class="tool-tip">Like</div>
+                  <!-- color: #ff3040 -->
+                </div>
+                <div class="comment__container">
+                  <i
+                    class="fa-regular fa-comment fa-comment-1"
+                    style="color: #000000"
+                  ></i>
+                  <div class="tool-tip">Comment</div>
+                </div>
+                <div class="share__container">
+                  <i
+                    class="fa-regular fa-paper-plane fa-share-1"
+                    style="color: #000000"
+                  ></i>
+                  <div class="tool-tip">Share</div>
+                </div>
+              </div>
+              <div class="bookmark__container">
+                <i
+                  class="fa-regular fa-bookmark fa-bookmark-1"
+                  style="color: #000000"
+                ></i>
+                <div class="tool-tip">Save</div>
+              </div>
+            </div>
+
+            <div class="post-likes">
+              <img
+                class="likes-pfp"
+                src="https://images.unsplash.com/photo-1569591159212-b02ea8a9f239?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80%3D%3D&auto=format&fit=crop&w=880&q=80"
+              />
+              <p>
+                Liked by
+                <span class="suggested-handle">creeme_</span>
+                and
+                <span class="suggested-handle">1 other</span>
+              </p>
+            </div>
+
+            <div class="post-caption">
+              <p><span class="post-handle">vanili</span> Good morning!</p>
+            </div>
+
+            <div class="post-add-comment">
+              <input
+                class="post-add-comment__input"
+                placeholder="Add a comment..."
+              />
+              <button>
+                <i class="fa-regular fa-face-smile" style="color: #000000"></i>
+              </button>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="instagram.js"></script>
+  </body>
+</html>
